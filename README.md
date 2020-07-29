@@ -10,11 +10,12 @@ Should I add EUI files, or a simple add/ remove script?
 
 Am I using DX9 or 11? Or none at all?
 
-# Potential fixes
-- Disable hyperthreading on Linux desktop
+# Potential fixes / next steps
 
-- Changing max simluataneious threads in config.ini
- - Tried increasing and decreasing, no effect
+  Try Linux + Wine
+
+  Try Linux solutions: Steam proto…, ludity
+
 - How to determine root cause?
 	- Need a reproducible crash, can test it on all the machines (MBP x2, big-red)
 	- How to find crash logs?
@@ -25,3 +26,20 @@ Am I using DX9 or 11? Or none at all?
 	- https://www.reddit.com/r/civ5/comments/e43gcm/constant_crashing_on_mac/
 	- Partition solution - https://www.reddit.com/r/civ5/comments/7gzx00/civ_5_is_crashing_on_my_mac_pro_help/
 	- Catalina megathread - https://www.reddit.com/r/civ5/comments/dy6uzd/macos_catalina_megathread/
+- https://www.reddit.com/r/linux_gaming/comments/2zd6xh/civ5_for_linux_not_working/
+
+  Set "Low Leader scene quality”
+
+  Linux system - Check into updated drivers for linux box + video card and others
+
+  Could have 2 separate installs, one with EUI and one without, to see if that makes a difference
+
+  Try DirectX 11 (Windows)
+
+
+
+# Attempted fixes
+- Lowered to a single CPU
+  - Seems like hyperthreading was disabled here
+- Changing max simluataneious threads in config.ini
+ - Tried increasing and decreasing, no effect
