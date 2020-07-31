@@ -10,6 +10,10 @@ Should I add EUI files, or a simple add/ remove script?
 
 Am I using DX9 or 11? Or none at all?
 
+What else can we turn off? Reward popups?
+Look into mapping from game screen and help understanding the mapping
+
+
 # Potential fixes / next steps
 
   Try Linux + Wine
