@@ -1,11 +1,5 @@
-Build up military
-- Battleships, submarines
-- Infantry, Ranged units
-- Plan first to invade venice
+# England
+Latest save should be auto-save
 
 
-# Diplomacy
-World congress - Revoke ban on city-state trade routes
-Spies
-- 1 on defense in capital (build ant-spy building)
-- 1 is going to Marakesh to buy votes for natural wonder
+Setup auto pre and post turn saves, script to rename latest save as quicksave

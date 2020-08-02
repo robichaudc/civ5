@@ -16,6 +16,8 @@ Look into mapping from game screen and help understanding the mapping
 
 # Potential fixes / next steps
 
+- "There have been anecdotal reports of Mac users having success using Windows virtualization with e.g. Parallels or VirtualBox."
+
   Try Linux + Wine
 
   Try Linux solutions: Steam proto…, ludity
