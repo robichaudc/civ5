@@ -49,3 +49,8 @@ Look into mapping from game screen and help understanding the mapping
   - Seems like hyperthreading was disabled here
 - Changing max simluataneious threads in config.ini
  - Tried increasing and decreasing, no effect
+
+
+# Crash situations
+- Using a work boat
+- Using a great person
