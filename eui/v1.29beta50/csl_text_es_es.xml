@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- City States Leaders -->
+<!-- edited with notepad++ by bc1 -->
+<!-- translated to spanish by rpablo33 (with notepad++, too) -->
+<GameData>
+	<Language_es_ES>
+		<Replace Tag="TXT_KEY_CSL_NOTICE">
+			<Text>Artista de líderes de Ciudades-estado: {1}[NEWLINE]Idea original por mihaifx (2010) y Nutty (2012)</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CSL_ENABLE">
+			<Text>Habilitar íconos de líderes de Ciudades-estado</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CSL_ENABLE_TT">
+			<Text>Habilita los íconos de líderes de Ciudades-estado en la ventana de diálogo de Ciudad-estado y en los mensajes de ayuda[NEWLINE]Idea original por mihaifx (2010) y Nutty (2012)[NEWLINE]Deshabilitar en caso de problemas o en PC de gama baja</Text>
+		</Replace>
+
+		<!--Replace Tag="TXT_KEY_CSL_ICON_MINOR_MINOR_CIV_SHOSHONE"> <Text>shoshone_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_SHOSHONE"> <Text>Jefe Pocatello </Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_MINOR_CIV_SHOSHONE"> <Text>Firaxis</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_MINOR_CIV_PUEBLO"> <Text>pueblo_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_PUEBLO"> <Text>Po'pay</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_MINOR_CIV_PUEBLO"> <Text>Firaxis</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_MINOR_CIV_HAWAII"> <Text>hawaii_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_HAWAII"> <Text>Rey Kamehameha I el Grande</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_MINOR_CIV_HAWAII"> <Text>Firaxis</Text> </Replace-->
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_ABIDJAN"> <Text>abidjan_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_ABIDJAN"> <Text>Presidente Felix Houphouet-Boigny</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_ABIDJAN"> <Text>-</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_ABU_DHABI"> <Text>abu_dhabi_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_ABU_DHABI"> <Text>Presidente Zayed bin Sultán Al Nahyan</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_ABU_DHABI"> <Text>-</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_AKSUM"> <Text>aksum_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_AKSUM"> <Text>Emperador Haile Selassie I</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_AKSUM"> <Text>Firaxis</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_ALMATY"> <Text>almaty_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_ALMATY"> <Text>Janybek Khan el Sabio</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_ALMATY"> <Text>knightmare13</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_ANTANANARIVO"> <Text>antananarivo_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_ANTANANARIVO"> <Text>Reina Ranavalona I</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_ANTANANARIVO"> <Text>Nutty</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_ANTWERP"> <Text>antwerp_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_ANTWERP"> <Text>Conde Robert III the Lion</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_ANTWERP"> <Text>janboruta</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_BELGRADE"> <Text>belgrade_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_BELGRADE"> <Text>Gran Líder Karadorde Petrovic</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_BELGRADE"> <Text>janboruta</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_BOGOTA"> <Text>bogota_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_BOGOTA"> <Text>Presidente Simón Bolívar</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_BOGOTA"> <Text>Leugi</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_BRATISLAVA"> <Text>bratislava_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_BRATISLAVA"> <Text>Rey Svatopluk I el Grande</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_BRATISLAVA"> <Text>J. Kohler/Nutty</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_BRUSSELS"> <Text>brussels_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_BRUSSELS"> <Text>Rey Leopoldo II</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_BRUSSELS"> <Text>janboruta</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_BUCHAREST"> <Text>bucharest_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_BUCHAREST"> <Text>Príncipe Vlad III el Empalador</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_BUCHAREST"> <Text>janboruta</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_BUDAPEST"> <Text>budapest_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_BUDAPEST"> <Text>Rey Esteban I el Sabio</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_BUDAPEST"> <Text>janboruta</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_BUENOS_AIRES"> <Text>buenos_aires_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_BUENOS_AIRES"> <Text>Eva Perón</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_BUENOS_AIRES"> <Text>Leugi</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_BYBLOS"> <Text>byblos_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_BYBLOS"> <Text>Rey Ahiram</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_BYBLOS"> <Text>LastSword</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_CAHOKIA"> <Text>cahokia_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_CAHOKIA"> <Text>Rey Birdman</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_CAHOKIA"> <Text>H. Roe/Nutty</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_CAPE_TOWN"> <Text>cape_town_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_CAPE_TOWN"> <Text>Comandante Jan van Riebeeck</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_CAPE_TOWN"> <Text>janboruta</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CAPE_TOWN"> <Text>cape_town_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CAPE_TOWN"> <Text>Comandante Jan van Riebeeck</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CAPE_TOWN"> <Text>janboruta</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_CARTHAGE"> <Text>carthage_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_CARTHAGE"> <Text>Reina Dido</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_CARTHAGE"> <Text>Firaxis</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_COLOMBO"> <Text>colombo_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_COLOMBO"> <Text>Primer Ministro D.S. Senanayake</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_COLOMBO"> <Text>knightmare13</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_COPENHAGEN"> <Text>sydney_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_COPENHAGEN"> <Text>Gobernador Arthur Phillip</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_COPENHAGEN"> <Text>TPangolin</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_DUBAI"> <Text>dubai_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_DUBAI"> <Text>Primer Ministro Jeque Mohammed Al Maktoum</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_DUBAI"> <Text>TPangolin</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_DUBLIN"> <Text>dublin_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_DUBLIN"> <Text>Lord Alcalde Daniel O'Connell el Libertador</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_DUBLIN"> <Text>B. Mulrenin/Nutty</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_EDINBURGH"> <Text>edinburgh_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_EDINBURGH"> <Text>Rey Jacobo VI</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_EDINBURGH"> <Text>LastSword</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_FLORENCE"> <Text>florence_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_FLORENCE"> <Text>Lorenzo de Médici el Magnífico</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_FLORENCE"> <Text>sukritact</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_GENEVA"> <Text>geneva_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_GENEVA"> <Text>Pastor Juan Calvino</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_GENEVA"> <Text>janboruta</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_GENOA"> <Text>genoa_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_GENOA"> <Text>Condotiero Andrea Doria</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_GENOA"> <Text>janboruta</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_HANOI"> <Text>hanoi_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_HANOI"> <Text>Emperador Ly Thai To el Venerado</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_HANOI"> <Text>davey_henninger</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_HELSINKI"> <Text>helsinki_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_HELSINKI"> <Text>Presidente Gustaf Mannerheim</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_HELSINKI"> <Text>Hypereon</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_HONG_KONG"> <Text>hong_kong_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_HONG_KONG"> <Text>Sir Kai Ho</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_HONG_KONG"> <Text>TPangolin</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_IFE"> <Text>ife_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_IFE"> <Text>Ooni Akinmoyero</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_IFE"> <Text>janboruta</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_INCA"> <Text>inca_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_INCA"> <Text>Emperador Pachacútec</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_INCA"> <Text>Firaxis</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_JAKARTA"> <Text>jakarta_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_JAKARTA"> <Text>Primer Ministro Gajamada</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_JAKARTA"> <Text>Firaxis</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_JERUSALEM"> <Text>jerusalem_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_JERUSALEM"> <Text>Rey Salomón el Sabio</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_JERUSALEM"> <Text>Leugi</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_KABUL"> <Text>kabul_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_KABUL"> <Text>Emir Ahmad Shah Durrani</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_KABUL"> <Text>LastSword</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_KATHMANDU"> <Text>kathmandu_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_KATHMANDU"> <Text>Rey Tribhuvan</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_KATHMANDU"> <Text>Leugi</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_KIEV"> <Text>kiev_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_KIEV"> <Text>Gran Príncipe Yaroslav el Sabio</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_KIEV"> <Text>janboruta</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_KUALA_LUMPUR"> <Text>kuala_lumpur_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_KUALA_LUMPUR"> <Text>Capitán Yap Ah Loy</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_KUALA_LUMPUR"> <Text>TPangolin</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_KYZYL"> <Text>kyzyl_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_KYZYL"> <Text>Presidente Khertek Anchimaa-Toka</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_KYZYL"> <Text>Nutty</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_LA_VENTA"> <Text>la_venta_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_LA_VENTA"> <Text>Ku Po Ngbe</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_LA_VENTA"> <Text>LastSword</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_LHASA"> <Text>lhasa_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_LHASA"> <Text>Dalai Lama Thubten Gyatso</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_LHASA"> <Text>sukritact</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_LISBON"> <Text>lisbon_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_LISBON"> <Text>Reina María I</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_LISBON"> <Text>Firaxis</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_MADRID"> <Text>madrid_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_MADRID"> <Text>Reina Isabel la Católica</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_MADRID"> <Text>Firaxis</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_MALACCA"> <Text>malacca_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_MALACCA"> <Text>Sultán Abdul Halim</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_MALACCA"> <Text>Nutty</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_MANILA"> <Text>manila_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_MANILA"> <Text>José Rizal</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_MANILA"> <Text>knightmare13</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_MARRAKECH"> <Text>marrakech_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_MARRAKECH"> <Text>Sultán Ahmad al-Mansur el Dorado</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_MARRAKECH"> <Text>Firaxis</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_RABAT"> <Text>marrakech_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_RABAT"> <Text>Sultán Ahmad al-Mansur el Dorado</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_RABAT"> <Text>Firaxis</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_MAYA"> <Text>maya_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_MAYA"> <Text>Rey Pacal el Grande</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_MAYA"> <Text>Firaxis</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_TIKAL"> <Text>maya_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_TIKAL"> <Text>Rey Pacal el Grande</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_TIKAL"> <Text>Firaxis</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_MBANZA_KONGO"> <Text>mbanza_kongo_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_MBANZA_KONGO"> <Text>Reina Njinga Mbande</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_MBANZA_KONGO"> <Text>Leugi</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_MELBOURNE"> <Text>melbourne_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_MELBOURNE"> <Text>John Batman</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_MELBOURNE"> <Text>TPangolin</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_MILAN"> <Text>milan_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_MILAN"> <Text>Duque Gian Galeazzo Visconti</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_MILAN"> <Text>janboruta</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_MOGADISHU"> <Text>mogadishu_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_MOGADISHU"> <Text>Presidente Aden Adde</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_MOGADISHU"> <Text>TPangolin</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_MOMBASA"> <Text>mombasa_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_MOMBASA"> <Text>Presidente Jomo Kenyatta</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_MOMBASA"> <Text>knightmare13</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_MONACO"> <Text>monaco_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_MONACO"> <Text>Príncipe Rainiero III</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_MONACO"> <Text>knightmare13</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_ORMUS"> <Text>ormus_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_ORMUS"> <Text>Sultán Qabus bin Said</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_ORMUS"> <Text>knightmare13</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_OSLO"> <Text>quebec_city_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_OSLO"> <Text>Primer Ministro John A. MacDonald</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_OSLO"> <Text>davey_henninger</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_PANAMA_CITY"> <Text>panama_city_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_PANAMA_CITY"> <Text>General Victoriano Lorenzo</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_PANAMA_CITY"> <Text>Leugi</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_PRAGUE"> <Text>prague_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_PRAGUE"> <Text>Rey Wenceslao II</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_PRAGUE"> <Text>janboruta</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_QUEBEC_CITY"> <Text>quebec_city_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_QUEBEC_CITY"> <Text>Primer Ministro John A. MacDonald</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_QUEBEC_CITY"> <Text>davey_henninger</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_RAGUSA"> <Text>ragusa_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_RAGUSA"> <Text>Duque Auguste de Marmont el Traidor</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_RAGUSA"> <Text>Nutty</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_RIGA"> <Text>riga_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_RIGA"> <Text>Presidente Janis Cakste</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_RIGA"> <Text>TPangolin</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_RIO_DE_JANEIRO"> <Text>rio_de_janeiro_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_RIO_DE_JANEIRO"> <Text>Emperador Pedro II el Magnánimo</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_RIO_DE_JANEIRO"> <Text>Firaxis</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_ROTTERDAM"> <Text>rotterdam_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_ROTTERDAM"> <Text>Príncipe Guillermo I</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_ROTTERDAM"> <Text>Firaxis</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_SAMARKAND"> <Text>samarkand_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_SAMARKAND"> <Text>Emir Tamerlán</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_SAMARKAND"> <Text>M. Gerasimov/LastSword</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_SEOUL"> <Text>kathmandu_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_SEOUL"> <Text>Rey Tribhuvan</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_SEOUL"> <Text>Leugi</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_SIDON"> <Text>sidon_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_SIDON"> <Text>Rey Eshmunazar II</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_SIDON"> <Text>Leugi</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_SIDON"> <Text>sidon_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_SIDON"> <Text>Rey Eshmunazar II</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_SIDON"> <Text>Leugi</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_SINGAPORE"> <Text>singapore_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_SINGAPORE"> <Text>Primer Ministro Lee Kuan Yew</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_SINGAPORE"> <Text>TPangolin</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_MINOR_CIV_SIOUX"> <Text>sioux_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_SIOUX"> <Text>Jefe Toro Sentado</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_MINOR_CIV_SIOUX"> <Text>Firaxis</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_SOFIA"> <Text>sofia_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_SOFIA"> <Text>Zar Simeón I el Grande</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_SOFIA"> <Text>D. Giudjenov/Nutty</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_STOCKHOLM"> <Text>stockholm_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_STOCKHOLM"> <Text>Rey Gustavo Adolfo el Grande</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_STOCKHOLM"> <Text>Firaxis</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_SYDNEY"> <Text>sydney_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_SYDNEY"> <Text>Gobernador Arthur Phillip</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_SYDNEY"> <Text>TPangolin</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_TAIPEI"> <Text>taipei_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_TAIPEI"> <Text>Presidente Chiang Kai-shek</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_TAIPEI"> <Text>-</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_TYRE"> <Text>tyre_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_TYRE"> <Text>Rey Hirám I</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_TYRE"> <Text>LastSword</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_TYRE"> <Text>tyre_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_TYRE"> <Text>Rey Hirám I</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_TYRE"> <Text>LastSword</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_ULUNDI"> <Text>ulundi_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_ULUNDI"> <Text>Rey Shaka</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_ULUNDI"> <Text>Firaxis</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_UR"> <Text>ur_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_UR"> <Text>Rey Eannatum</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_UR"> <Text>janboruta</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_VALLETTA"> <Text>valletta_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_VALLETTA"> <Text>Gran Maestre Giovanni Paolo Lascaris</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_VALLETTA"> <Text>TPangolin</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_VANCOUVER"> <Text>vancouver_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_VANCOUVER"> <Text>Primer Ministro Mackenzie King</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_VANCOUVER"> <Text>TPangolin</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_VATICAN_CITY"> <Text>vatican_city_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_VATICAN_CITY"> <Text>Papa Pío IX el Bendecido</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_VATICAN_CITY"> <Text>janboruta</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_VENICE"> <Text>venice_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_VENICE"> <Text>Dogo Enrico Dándolo</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_VENICE"> <Text>Firaxis</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_VIENNA"> <Text>vienna_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_VIENNA"> <Text>Emperatriz María Teresa</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_VIENNA"> <Text>Firaxis</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_VILNIUS"> <Text>vilnius_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_VILNIUS"> <Text>Gran Duque Gediminas</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_VILNIUS"> <Text>LastSword</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_WARSAW"> <Text>warsaw_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_WARSAW"> <Text>Rey Casimiro III el Grande</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_WARSAW"> <Text>Firaxis</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_WELLINGTON"> <Text>wellington_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_WELLINGTON"> <Text>Primer Ministro Richard Seddon el Rey</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_WELLINGTON"> <Text>TPangolin</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_WITTENBERG"> <Text>wittenberg_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_WITTENBERG"> <Text>Príncipe Elector Federico III</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_WITTENBERG"> <Text>janboruta</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_YEREVAN"> <Text>yerevan_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_YEREVAN"> <Text>Emperador Tigranes II el Grande</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_YEREVAN"> <Text>Leugi</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_ZANZIBAR"> <Text>zanzibar_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_ZANZIBAR"> <Text>Sultán Majid bin Said</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_ZANZIBAR"> <Text>sukritact</Text> </Replace>
+
+		<Replace Tag="TXT_KEY_CSL_ICON_MINOR_CIV_ZURICH"> <Text>zurich_leadericon.dds</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_LEADER_MINOR_CIV_ZURICH"> <Text>General Guillaume-Henri Dufour</Text> </Replace>
+		<Replace Tag="TXT_KEY_CSL_ARTIST_MINOR_CIV_ZURICH"> <Text>JFD</Text> </Replace>
+
+	</Language_es_ES>
+</GameData>

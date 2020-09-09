@@ -1,10 +1,14 @@
 # civ5
 
+
+# Logging
+- Use `journalctl | grep Civ5XP`
+- Example error message: "Sep 08 22:47:05 bigred kernel: Civ5XP[414771]: segfault at 669d2604 ip 00000000dccece08 sp 00000000ec4fecdc error 4 in libCvGameCoreDLL_Expansion2.so[dc97e000+55f000]"
+---
+
 ## Config
 config.ini
 - I already have changes, diff against the default
-
-- Something about Low Graphics for diplomatic screens
 
 Should I add EUI files, or a simple add/ remove script?
 
@@ -15,7 +19,8 @@ Look into mapping from game screen and help understanding the mapping
 
 
 # Potential fixes / next steps
-
+- Need better EUI logging, so we can isolate the issue that is causing the crash
+- Crash logs: Research issue that shows in logs - ?
 - "There have been anecdotal reports of Mac users having success using Windows virtualization with e.g. Parallels or VirtualBox."
 
   Try Linux + Wine
@@ -54,3 +59,17 @@ Look into mapping from game screen and help understanding the mapping
 # Crash situations
 - Using a work boat
 - Using a great person
+
+
+
+# Other tasks
+- Message civfanatics and see if bc1 is interested in open source collaboration?
+- Is there a way I can enable more useful logging?
+
+---
+
+# Update linux big-red
+- Try out fixes suggested in reddit / steam forums
+  - Try out removing EUI (via script) and confirm it is removed and if crash is still happening
+  - LD_PRELOAD
+  - taskset

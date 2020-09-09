@@ -1,0 +1,30 @@
+Aug 28 21:02:19 bigred kernel: Civ5XP[19516]: segfault at 484fe404 ip 00000000dd58ab9c sp 00000000ec5fecdc error 4 in libCvGameCoreDLL_Expansion2.so
+Aug 28 21:02:19 bigred kernel: Code: 14 89 44 24 08 89 4c 24 04 8d 44 24 18 89 04 24 e8 5d 82 e3 ff 83 ec 04 89 b7 98 05 00 00 83 c4 20 5e 5f>
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6554] dhcp4 (wlp3s0): option dhcp_lease_time      => '7200'
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6554] dhcp4 (wlp3s0): option domain_name_servers  => '208.59.247.45 208.59.24>
+Aug 28 21:04:21 bigred dbus-daemon[706]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedes>
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6555] dhcp4 (wlp3s0): option expiry               => '1598670261'
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6555] dhcp4 (wlp3s0): option ip_address           => '192.168.68.110'
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6555] dhcp4 (wlp3s0): option requested_broadcast_address => '1'
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6555] dhcp4 (wlp3s0): option requested_domain_name => '1'
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6555] dhcp4 (wlp3s0): option requested_domain_name_servers => '1'
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6555] dhcp4 (wlp3s0): option requested_domain_search => '1'
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6555] dhcp4 (wlp3s0): option requested_host_name  => '1'
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6556] dhcp4 (wlp3s0): option requested_interface_mtu => '1'
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6556] dhcp4 (wlp3s0): option requested_ms_classless_static_routes => '1'
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6556] dhcp4 (wlp3s0): option requested_nis_domain => '1'
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6556] dhcp4 (wlp3s0): option requested_nis_servers => '1'
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6556] dhcp4 (wlp3s0): option requested_ntp_servers => '1'
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6556] dhcp4 (wlp3s0): option requested_rfc3442_classless_static_routes => '1'
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6556] dhcp4 (wlp3s0): option requested_root_path  => '1'
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6556] dhcp4 (wlp3s0): option requested_routers    => '1'
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6557] dhcp4 (wlp3s0): option requested_static_routes => '1'
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6557] dhcp4 (wlp3s0): option requested_subnet_mask => '1'
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6557] dhcp4 (wlp3s0): option requested_time_offset => '1'
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6557] dhcp4 (wlp3s0): option requested_wpad       => '1'
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6557] dhcp4 (wlp3s0): option routers              => '192.168.68.1'
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6557] dhcp4 (wlp3s0): option subnet_mask          => '255.255.255.0'
+Aug 28 21:04:21 bigred NetworkManager[707]: <info>  [1598663061.6557] dhcp4 (wlp3s0): state changed extended -> extended
+Aug 28 21:04:21 bigred systemd[1]: Starting Network Manager Script Dispatcher Service...
+Aug 28 21:04:21 bigred dbus-daemon[706]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Aug 28 21:04:21 bigred systemd[1]: Started Network Manager Script Dispatcher Service.
