@@ -1,40 +1,88 @@
 # Relative paths are relative to this script path, not the terminal working directory
 cd $(dirname $0)
 
+mac=true # TODO
+
+if [[ $mac ]]; then
+  echo "mac detected"
+  #/Users/A155793/Library/Application Support/Steam/steamapps/common/Sid Meier's Civilization V
+  # Civilization V.app/Contents/Home/assets/DLC
+  DLC_DIR=~/"Library/Application Support/Steam/steamapps/common/Sid Meier's Civilization V/Civilization V.app/Contents/Assets/Assets/DLC"
+  TEXT_DIR=~/"Library/Application Support/Sid Meier's Civilization 5/Text"
+  DLC_EUI="$DLC_DIR/UI_bc1"
+  EUI_SRC="`pwd`/../eui/EUI_v1.29beta50_mac"
+else
+  echo "linux detected"
+  DLC_DIR=~/".steam/steam/steamapps/common/Sid Meier's Civilization V/steamassets/assets/dlc"
+  TEXT_DIR=~/".local/share/Aspyr/Sid Meier's Civilization 5/Text"
+  DLC_EUI="$DLC_DIR/ui_bc1"
+  EUI_SRC="`pwd`/../eui/v1.29beta50"
+fi
+
 # Steam install dir - note that spaces could be problematic
-DLC_DIR=~/".steam/steam/steamapps/common/Sid Meier's Civilization V/steamassets/assets/dlc"
-DLC_EUI="$DLC_DIR/ui_bc1"
-TEXT_DIR=~/".local/share/Aspyr/Sid Meier's Civilization 5/Text"
-EUI_SRC="`pwd`/../eui/v1.29beta50"
 
-EUI_FILES=""
 
-cp_eui()
+
+#EUI_FILES=""
+
+cp_eui_dlc()
 {
-  cp -R $EUI_SRC/ui_bc1/$1 "$DLC_EUI"
+  echo "Copying EUI DLC files:"
+  cp -R "$EUI_SRC/ui_bc1/" "$DLC_EUI"
+  ls "$DLC_EUI"
+  echo
+}
+
+cp_eui_text()
+{
+  echo "Copying EUI text xml files:"
+  cd "$TEXT_DIR"
+  cp $EUI_SRC/*_text_*.xml .
+  # TODO: Proper case
+  ls "$TEXT_DIR"
+  echo
+}
+
+rm_eui()
+{
+  echo "Removing EUI DLC:"
+  #cd "$DLC_DIR"
+  #echo "dlc before"
+  #ls "$DLC_EUI"
+  rm -rf "$DLC_EUI" # Linux is lowercase
+  #ls "$DLC_EUI"
+
+  echo "Removing EUI text xml:"
+  cd "$TEXT_DIR"
+  rm -f eui_text_*.xml csl_text_*.xml EUI_text_*
+  #ls
+  #;;
+
+  # Capitalize for mac?
 }
 
 ### MAIN ###
 
-
-
-
-
 case "$1" in
 
   "remove")
-    echo "Removing EUI"
-    cd "$DLC_DIR"
-    rm -rf ui_bc1 # Linux is lowercase
-    cd "$TEXT_DIR"
-    rm -f eui_text_*.xml csl_text_*.xml
+    rm_eui
+    #echo "Removing EUI"
+    #cd "$DLC_DIR"
+    #rm -rf ui_bc1 UI_bc1 # Linux is lowercase
+    #cd "$TEXT_DIR"
+    #rm -f eui_text_*.xml csl_text_*.xml
     ;;
 
   "install")
-    rm -rf "$DLC_EUI"
-    mkdir "$DLC_EUI"
+    rm_eui
+    #rm -rf "$DLC_EUI"
+    # mkdir "$DLC_EUI"
     #cp -R $EUI_SRC/ui_bc1 .
-    cp_eui "*"
+    cp_eui_dlc #"*"
+    cp_eui_text
+
+    exit 0
 
     # Remove problematic modules
     #rm -rf toppanel
@@ -42,12 +90,8 @@ case "$1" in
     #rm -rf tooltips
     #rm -rf unitpanel
 
-    echo "EUI files:"
-    ls "$DLC_EUI"
-
-    cd "$TEXT_DIR"
-    rm -f eui_text_*.xml csl_text_*.xml
-    cp $EUI_SRC/*_text_*.xml .
+    #rm -f eui_text_*.xml csl_text_*.xml
+    #cp $EUI_SRC/*_text_*.xml .
     ;;
 
   "debug")
@@ -56,7 +100,7 @@ case "$1" in
     ;;
 
   *)
-    echo "Missing required arg"
+    echo "Missing required argument: [install, remove, debug]"
     exit 1;;
 esac
 
