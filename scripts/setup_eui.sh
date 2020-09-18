@@ -1,45 +1,60 @@
 # Relative paths are relative to this script path, not the terminal working directory
 cd $(dirname $0)
 
-# TODO: Convert all files to lowercase? See step 7 in readme
-# unzip with LL flag: unzip -LL EUI_zip_file.zip
-
-
 # Steam install dir - note that spaces could be problematic
 DLC_DIR=~/".steam/steam/steamapps/common/Sid Meier's Civilization V/steamassets/assets/dlc"
+DLC_EUI="$DLC_DIR/ui_bc1"
 TEXT_DIR=~/".local/share/Aspyr/Sid Meier's Civilization 5/Text"
-EUI_DIR="`pwd`/../eui/v1.29beta50"
+EUI_SRC="`pwd`/../eui/v1.29beta50"
 
-# Remove old DLC version
-cd "$DLC_DIR"
+EUI_FILES=""
+
+cp_eui()
+{
+  cp -R $EUI_SRC/ui_bc1/$1 "$DLC_EUI"
+}
+
+### MAIN ###
+
+
+
+
 
 case "$1" in
+
   "remove")
-    echo "Found remove"
+    echo "Removing EUI"
+    cd "$DLC_DIR"
     rm -rf ui_bc1 # Linux is lowercase
     cd "$TEXT_DIR"
     rm -f eui_text_*.xml csl_text_*.xml
     ;;
+
   "install")
-    rm -rf ui_bc1 # Linux is lowercase
-    cp -R $EUI_DIR/ui_bc1 .
+    rm -rf "$DLC_EUI"
+    mkdir "$DLC_EUI"
+    #cp -R $EUI_SRC/ui_bc1 .
+    cp_eui "*"
 
     # Remove problematic modules
-    cd ui_bc1
-    rm -rf toppanel
+    #rm -rf toppanel
     #rm -rf techtree
     #rm -rf tooltips
-    rm -rf unitpanel
+    #rm -rf unitpanel
 
-    #rm eui_?.civ5pkg
+    echo "EUI files:"
+    ls "$DLC_EUI"
 
     cd "$TEXT_DIR"
     rm -f eui_text_*.xml csl_text_*.xml
-    cp $EUI_DIR/*_text_*.xml .
-
-    echo "EUI files:"
-    ls "${DLC_DIR}/ui_bc1"
+    cp $EUI_SRC/*_text_*.xml .
     ;;
+
+  "debug")
+    echo "Collect debug logs"
+    journalctl | grep Civ5XP | tail
+    ;;
+
   *)
     echo "Missing required arg"
     exit 1;;
