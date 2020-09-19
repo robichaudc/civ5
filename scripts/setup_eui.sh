@@ -3,23 +3,38 @@ cd $(dirname $0)
 
 mac=true # TODO
 
-if [[ $mac ]]; then
-  echo "mac detected"
-  #/Users/A155793/Library/Application Support/Steam/steamapps/common/Sid Meier's Civilization V
-  # Civilization V.app/Contents/Home/assets/DLC
-  DLC_DIR=~/"Library/Application Support/Steam/steamapps/common/Sid Meier's Civilization V/Civilization V.app/Contents/Assets/Assets/DLC"
-  TEXT_DIR=~/"Library/Application Support/Sid Meier's Civilization 5/Text"
-  DLC_EUI="$DLC_DIR/UI_bc1"
-  EUI_SRC="`pwd`/../eui/EUI_v1.29beta50_mac"
-else
-  echo "linux detected"
-  DLC_DIR=~/".steam/steam/steamapps/common/Sid Meier's Civilization V/steamassets/assets/dlc"
-  TEXT_DIR=~/".local/share/Aspyr/Sid Meier's Civilization 5/Text"
-  DLC_EUI="$DLC_DIR/ui_bc1"
-  EUI_SRC="`pwd`/../eui/v1.29beta50"
-fi
+case "`uname`" in
+  (*Linux*)
+    echo "linux detected"
+    # Steam install dir - note that spaces could be problematic
+    DLC_DIR=~/".steam/steam/steamapps/common/Sid Meier's Civilization V/steamassets/assets/dlc"
+    TEXT_DIR=~/".local/share/Aspyr/Sid Meier's Civilization 5/Text"
+    DLC_EUI="$DLC_DIR/ui_bc1"
+    EUI_SRC="`pwd`/../eui/v1.29beta50"
+  ;;
+  (*Darwin*) # Mac
+    echo "mac detected"
+    #/Users/A155793/Library/Application Support/Steam/steamapps/common/Sid Meier's Civilization V
+    # Civilization V.app/Contents/Home/assets/DLC
+    DLC_DIR=~/"Library/Application Support/Steam/steamapps/common/Sid Meier's Civilization V/Civilization V.app/Contents/Assets/Assets/DLC"
+    TEXT_DIR=~/"Library/Application Support/Sid Meier's Civilization 5/Text"
+    DLC_EUI="$DLC_DIR/UI_bc1"
+    EUI_SRC="`pwd`/../eui/EUI_v1.29beta50_mac"
+    ;;
+    (*CYGWIN*) openCmd='cygstart'; ;;
+    (*) echo 'error: unsupported platform.'; exit 2;
+  ;;
+  (*)
+    echo "OS not recognized"
+    exit 1
+  ;;
+esac
 
-# Steam install dir - note that spaces could be problematic
+#if [[ $mac ]]; then
+#else
+#fi
+
+
 
 
 
@@ -62,7 +77,7 @@ rm_eui()
 }
 
 ### MAIN ###
-
+exit 0
 case "$1" in
 
   "remove")
@@ -81,8 +96,6 @@ case "$1" in
     #cp -R $EUI_SRC/ui_bc1 .
     cp_eui_dlc #"*"
     cp_eui_text
-
-    exit 0
 
     # Remove problematic modules
     #rm -rf toppanel
