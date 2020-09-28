@@ -1,5 +1,10 @@
 # civ5
 
+## Work MBP Todo
+- Enable save-before and save-after end-of-turn
+
+
+---
 
 # Logging
 - Use `journalctl | grep Civ5XP`

@@ -1,5 +1,3 @@
-# England
-Latest save should be auto-save
+# Boudica - Celts
 
-
-Setup auto pre and post turn saves, script to rename latest save as quicksave
+Joining Polynesia for war against England - turn 129
