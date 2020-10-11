@@ -77,7 +77,6 @@ rm_eui()
 }
 
 ### MAIN ###
-exit 0
 case "$1" in
 
   "remove")
